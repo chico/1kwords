@@ -1,0 +1,42 @@
+{
+	"name": "1kwords",
+	"description": "Listen & spell 1000 common words",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"1kwords": "index.js"
+	},
+	"author": {
+		"name": "clidevs",
+		"email": "clidevs@gmail.com",
+		"url": "twitter.com/clidevs"
+	},
+	"keywords": [
+		"1kwords",
+		"clidevs"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"airtable": "^0.11.1",
+		"axios": "^0.26.0",
+		"chalk": "^4.1.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"enquirer": "^2.3.6",
+		"inquirer": "^8.2.0",
+		"meow": "^9.0.0",
+		"say": "^0.16.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	}
+}
